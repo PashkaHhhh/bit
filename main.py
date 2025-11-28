@@ -4,7 +4,8 @@ import datetime
 import requests
 from io import BytesIO
 from aiogram import Bot, Dispatcher
-from aiogram.types import DefaultBotProperties
+from aiogram.client.default import DefaultBotProperties
+from aiogram.enums import ParseMode
 # ──────────────────── ВСТАВЬ СЮДА СВОИ ДАННЫЕ ────────────────────
 BOT_TOKEN = "7470711434:AAFEZYOH2S1gM05j74z4OSr 3jGYwFQLy9cl"          # от @BotFather
 CHANNEL_ID = "@kinoshizik"                            # или -1001234567890
