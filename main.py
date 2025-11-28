@@ -16,7 +16,7 @@ REPLICATE_TOKEN = "r8_5jMeWoscEOV X5YP7abk25gllw F0cB7BF"       # от replicate
 GROQ_API_KEY    = "gsk_i8E6osaEhGAEnltq69pmWGdyb3FYW 20gTPb31U4LfHQXDo42cZuD"         # https://console.groq.com/keys
 # ─────────────────────────────────────────────────────────────────────
 
-bot = Bot(token=BOT_TOKEN, parse_mode="HTML")
+bot = Bot(token="7470711434:AAFEZYoH2S1gM05j74z4OSr3jGYwFQLy9cI", parse_mode="HTML")
 dp = Dispatcher()
 
 # Темы постов про кино, сериалы и аниме (можно добавлять свои)
