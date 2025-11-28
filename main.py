@@ -16,8 +16,10 @@ REPLICATE_TOKEN = "r8_5jMeWoscEOV X5YP7abk25gllw F0cB7BF"       # от replicate
 GROQ_API_KEY    = "gsk_i8E6osaEhGAEnltq69pmWGdyb3FYW 20gTPb31U4LfHQXDo42cZuD"         # https://console.groq.com/keys
 # ─────────────────────────────────────────────────────────────────────
 
+from aiogram import Bot, Dispatcher
+from aiogram.types import DefaultBotProperties
+
 bot = Bot(token="7470711434:AAFEZYoH2S1gM05j74z4OSr3jGYwFQLy9cI")
-dp = Dispatcher()
 dp = Dispatcher(bot=bot, default=DefaultBotProperties(parse_mode="HTML"))
 
 # Темы постов про кино, сериалы и аниме (можно добавлять свои)
